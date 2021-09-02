@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<link rel="stylesheet "  href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+ <div class="buttons">
+ 	<button class = "left">left</button>
+ 	<button class="right">right</button>
+ </div>
+ <div class="objectwrapper">
+ 	<div class="object"></div>
+ </div>
+
+ <script type="text/javascript">
+ 	$('.left').click(function(){
+ 		let position = $('.object').position()
+ 		$('.object').css("left" , position.left - 20)
+ 		
+ 	});
+ 	$('.right').click(function(){
+ 		let position = $('.object').position()
+ 		$('.object').css("left" , position.left + 20)
+ 		
+ 	});
+ </script>
+</body>
+</html>

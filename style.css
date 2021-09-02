@@ -1,0 +1,18 @@
+.objectwrapper{
+	position: relative;
+	height: 500px;
+	width:500px;
+	margin: auto auto;
+	background: black
+	
+
+}
+.object{
+	position:absolute;
+	top:50%;
+	left:50%;
+	height:50px;
+	width:50px;
+	border-radius: 50%;
+	background : red;
+}
